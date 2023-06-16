@@ -16,10 +16,12 @@
 11. smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"
 12. stroke: 1 if the patient had a stroke or 0 if not
 
-## Visulization of patients the likelyhood to have a stroke by age
-
-
+## Visualization of patients the likelyhood to have a stroke by age
+![1st](https://github.com/Osmayda/Modeling/assets/129660519/bbafc1ee-8524-45d8-a964-b64b769b3443)
 - People over 40 are more prone to having a stroke.
+
+## Visualization of Stroke and BMI
+
 
 ## Model Evaluation
 - The best model overall is PCA with an accuracy of 93%. 
