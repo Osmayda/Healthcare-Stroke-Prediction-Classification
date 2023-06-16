@@ -21,6 +21,14 @@
 - People over 40 are more prone to having a stroke.
 
 ## Visualization of Stroke and BMI
+![2nd vid](https://github.com/Osmayda/Modeling/assets/129660519/bc5e8325-2b7b-4053-a5bc-3d760dd9d948)
+- Individual with lower BMI are more likely to have a stroke.
+
+#Metrics for best Model
+- 94% accuracy
+- 0.99 false negative
+- .0025 false positive
+- The best model was KNN for this business problem. The KNN model is 94% accurate and has the lowest false negative results. In the models we want reduce false negatives as it means that patients are not being advised to the likelyhood of a stroke when they should be alerted. So reducing false negative is the best thing to do for this business problem. 
 
 
 ## Model Evaluation
