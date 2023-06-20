@@ -33,7 +33,7 @@ The link to the dataset is: https://www.kaggle.com/datasets/fedesoriano/stroke-p
 - Individual with lower BMI are more likely to have a stroke.
 
 
-# Machine Learning Model Training Results
+# **Machine Learning Model Training Results**
 #Metrics for best Model
 - 94% accuracy
 - 0.99 false negative
