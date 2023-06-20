@@ -24,26 +24,25 @@ The link to the dataset is: https://www.kaggle.com/datasets/fedesoriano/stroke-p
 12. stroke: 1 if the patient had a stroke or 0 if not
 
 # **EDA plots and Observations**
-## Visualization of patients the likelyhood to have a stroke by age
+## Visualization of patients the likelihood to have a stroke by age
 ![1st](https://github.com/Osmayda/Modeling/assets/129660519/bbafc1ee-8524-45d8-a964-b64b769b3443)
 - People over 40 are more prone to having a stroke.
 
 ## Visualization of Stroke and BMI
 ![2nd vid](https://github.com/Osmayda/Modeling/assets/129660519/bc5e8325-2b7b-4053-a5bc-3d760dd9d948)
-- Individual with lower BMI are more likely to have a stroke.
+- Individuals with lower BMI are more likely to have a stroke. This could be to the patient not taking extra precautions to prevent a stroke due to the assumption that they are healthy. 
 
 ## Heart Disease and likelihood of Stroke
-![image](https://github.com/Osmayda/Modeling/assets/129660519/b91dae96-8681-4156-82bb-a6420ae9504d)
+![changed](https://github.com/Osmayda/Modeling/assets/129660519/de697b19-c614-440e-8198-6e94752b8573)
 0 if the patient doesn't have any heart disease
 1 if the patient has a heart disease
 -patients with no heart disease are more likely to have a stroke. This could be because patients with no heart disease probably do not check their heart health as frequently. Patients with heart disease are probably under medications and can it be assumed that they are under a doctor's care that would keep them better informed of how to prevent strokes.
 
 
 # **Machine Learning Model Training Results**
-#Metrics for best Model
-- 94% accuracy
-- 0.99 false negative
-- .0025 false positive
+##Logistic Regression Model
+- Accuracy: 95%
+- Recall: 0%
 
 # **Summary**
 - The best model was KNN for this business problem. The KNN model is 94% accurate and has the lowest false negative results. In the models we want reduce false negatives as it means that patients are not being advised to the likelyhood of a stroke when they should be alerted. So reducing false negative is the best thing to do for this business problem. 
