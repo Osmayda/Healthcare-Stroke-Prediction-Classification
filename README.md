@@ -40,12 +40,32 @@ The link to the dataset is: https://www.kaggle.com/datasets/fedesoriano/stroke-p
 
 
 # **Machine Learning Model Training Results**
-##Logistic Regression Model
-- Accuracy: 95%
-- Recall: 0%
+##Tuned KNN
+- Accuracy: 92%
+- Recall: 14%
+
+##Tuned Random Forest 
+- Accuracy: 73%
+- Recall: 80%
+
+##Tuned XGBoost
+- Accuracy: 94%
+- Recall: 7%
+
+##Tuned Under Sampling XGBoost
+- Accuracy: 70%
+- Recall: 77%
+
+## Tuned KNN PCA
+- Accuracy: 92%
+- Recall: 19%
+
+## Tuned Under Sampling PCA KNN
+- Accuracy: 73%
+- Recall: 69%
 
 # **Summary**
-- The best model was KNN for this business problem. The KNN model is 94% accurate and has the lowest false negative results. In the models we want reduce false negatives as it means that patients are not being advised to the likelyhood of a stroke when they should be alerted. So reducing false negative is the best thing to do for this business problem. 
+- The best model is the Tuned Random Forest. The Tuned Random Forest model is 73% accurate and has the highest recall percentage. The model can accurately predict strokes 80% of the time. The models also have the lowest false negatives. This means patients who are likely to have a stroke were not advised of the likelihood of a stroke when they should have been alerted. So reducing false negatives is the best thing to do for this business problem. 
 
 
 # **Recommendation**
