@@ -38,8 +38,10 @@ The link to the dataset is: https://www.kaggle.com/datasets/fedesoriano/stroke-p
 - 94% accuracy
 - 0.99 false negative
 - .0025 false positive
+
+# **Summary**
 - The best model was KNN for this business problem. The KNN model is 94% accurate and has the lowest false negative results. In the models we want reduce false negatives as it means that patients are not being advised to the likelyhood of a stroke when they should be alerted. So reducing false negative is the best thing to do for this business problem. 
 
 
-## Model Evaluation
+# **Recommendation**
 - The best model overall is PCA with an accuracy of 93%. 
