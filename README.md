@@ -1,9 +1,15 @@
 # Prediction of Stroke (Kaggle Dataset)
 ## by Osmayda Nino | osmaydanino@hotmail.com
-*The data from the Kaggle Dataset on strokes is used to predict the likelyhood of stroke for patients.*
+
+# **Objective**
+*The data from the Kaggle Dataset on strokes is used to determine whether a patient is likely to get a stroke based on the input parameters like gender, age, various diseases, and smoking status.*
+
+Stakeholders: doctors, hospitals, patients, and insurance companies
+
+
 The link to the dataset is: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 
-#Data Dictionary
+# **Dataset Description**
 1. id: unique identifier
 2. gender: "Male", "Female" or "Other"
 3. age: age of the patient
@@ -17,6 +23,7 @@ The link to the dataset is: https://www.kaggle.com/datasets/fedesoriano/stroke-p
 11. smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"
 12. stroke: 1 if the patient had a stroke or 0 if not
 
+# **EDA plots and Observations**
 ## Visualization of patients the likelyhood to have a stroke by age
 ![1st](https://github.com/Osmayda/Modeling/assets/129660519/bbafc1ee-8524-45d8-a964-b64b769b3443)
 - People over 40 are more prone to having a stroke.
@@ -25,6 +32,8 @@ The link to the dataset is: https://www.kaggle.com/datasets/fedesoriano/stroke-p
 ![2nd vid](https://github.com/Osmayda/Modeling/assets/129660519/bc5e8325-2b7b-4053-a5bc-3d760dd9d948)
 - Individual with lower BMI are more likely to have a stroke.
 
+
+# Machine Learning Model Training Results
 #Metrics for best Model
 - 94% accuracy
 - 0.99 false negative
