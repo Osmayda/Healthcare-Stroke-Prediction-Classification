@@ -32,6 +32,12 @@ The link to the dataset is: https://www.kaggle.com/datasets/fedesoriano/stroke-p
 ![2nd vid](https://github.com/Osmayda/Modeling/assets/129660519/bc5e8325-2b7b-4053-a5bc-3d760dd9d948)
 - Individual with lower BMI are more likely to have a stroke.
 
+## Heart Disease and likelihood of Stroke
+![image](https://github.com/Osmayda/Modeling/assets/129660519/b91dae96-8681-4156-82bb-a6420ae9504d)
+0 if the patient doesn't have any heart disease
+1 if the patient has a heart disease
+-patients with no heart disease are more likely to have a stroke. This could be because patients with no heart disease probably do not check their heart health as frequently. Patients with heart disease are probably under medications and can it be assumed that they are under a doctor's care that would keep them better informed of how to prevent strokes.
+
 
 # **Machine Learning Model Training Results**
 #Metrics for best Model
