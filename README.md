@@ -65,8 +65,8 @@ The link to the dataset is: https://www.kaggle.com/datasets/fedesoriano/stroke-p
 - Recall: 69%
 
 # **Summary**
-- The best model is the Tuned Random Forest. The Tuned Random Forest model is 73% accurate and has the highest recall percentage. The model can accurately predict strokes 80% of the time. The models also have the lowest false negatives. This means patients who are likely to have a stroke were not advised of the likelihood of a stroke when they should have been alerted. So reducing false negatives is the best thing to do for this business problem. 
+- The best model is the Tuned Random Forest. The Tuned Random Forest model is 73% accurate and has the highest recall percentage. The model can accurately predict strokes 80% of the time. The models also have the lowest false negatives. This means patients who are likely to have a stroke were not advised of the likelihood of a stroke when they should have been alerted. Reducing false negatives so the model accurately predicts strokes is the objection and what is best for this problem.
 
 
 # **Recommendation**
-- The best model overall is PCA with an accuracy of 93%. 
+- The best model overall in predicting strokes is the Tuned Random Forest and I recommend this model for this business problem. 
