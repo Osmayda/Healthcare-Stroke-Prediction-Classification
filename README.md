@@ -1,6 +1,7 @@
 # Prediction of Stroke (Kaggle Dataset)
 ## by Osmayda Nino | osmaydanino@hotmail.com
 *The data from the Kaggle Dataset on strokes is used to predict the likelyhood of stroke for patients.*
+The link to the dataset is: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 
 #Data Dictionary
 1. id: unique identifier
