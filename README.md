@@ -26,7 +26,10 @@ The link to the dataset is: https://www.kaggle.com/datasets/fedesoriano/stroke-p
 # **EDA plots and Observations**
 ## Visualization of patients the likelihood to have a stroke by age
 ![1st](https://github.com/Osmayda/Modeling/assets/129660519/bbafc1ee-8524-45d8-a964-b64b769b3443)
-- People over 40 are more prone to having a stroke.
+- The chances of having a stroke increases with age.
+- On average older patients are more likely to have a stroke.
+- Younger patients are affected on average around the age of 45.
+- On average strokes can occur in patients over 65 years of age.
 
 ## Visualization of Stroke and BMI
 ![2nd vid](https://github.com/Osmayda/Modeling/assets/129660519/bc5e8325-2b7b-4053-a5bc-3d760dd9d948)
